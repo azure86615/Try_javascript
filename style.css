@@ -1,0 +1,11 @@
+#search{
+    width: 50%;
+    height: 100px;
+    font-size:50px;
+    color: red;
+    background-color: yellow;
+}
+
+#search:hover{
+    background-color: green;
+}

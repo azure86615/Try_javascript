@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="unicode"/>
+        <title>javascript練習</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p id="content">google</p>
+        <button onclick="btnclick(this)">yahoo</button>
+        <button id="btn">amazon</button>
+        <!--寫法1: 直接寫在html裡面-->
+        <script>
+            document.write("<h1>ホロライブ大好き</h1><br/>")
+        </script>
+        <br/>
+
+        <!--練習製作部落格概念的東西-->
+        <button id="search" onclick="search(this)">搜尋holomem</button>
+        <div id="intro">
+            
+        </div>
+        <div id="hist">
+            <h2>搜尋紀錄</h2>
+            <div id="histcontent">
+
+            </div>
+        </div>
+        
+
+        <!--寫法2: 引入-->
+        <script src="script.js"></script>
+    </body>
+</html>
